@@ -1,0 +1,12 @@
+show_date_time.o
+show_date_time.mod.o
+show_date_time.mod.c
+show_date_time.mod
+show_date_time.ko
+modules.order
+Module.symvers
+.show_date_time.o.cmd
+.show_date_time.mod.o.cmd
+.show_date_time.mod.cmd
+.show_date_time.ko.cmd
+.vscode/c_cpp_properties.json

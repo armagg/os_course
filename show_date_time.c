@@ -3,6 +3,7 @@
 #include <linux/kernel.h>
 #include <linux/time.h>
 
+MODULE_LICENSE("GPL");
 
 static int __init show_time(void) {
     long int offset = 12600;//tehran time is +3:30
