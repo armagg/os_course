@@ -5,6 +5,10 @@
 
 MODULE_LICENSE("GPL");
 
+MODULE_AUTHOR("omid Mesgarha");
+MODULE_DESCRIPTION("my first try to creating a linux kernel module that show date and time");
+MODULE_VERSION("1.00");
+
 static int __init show_time(void) {
     long int offset = 12600;//tehran time is +3:30
     printk("module show time and date started\n");
