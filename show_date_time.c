@@ -17,7 +17,7 @@ static int __init show_time(void) {
 }
 
 static void __exit show_time_exit(void) {
-    printk("module show time and date started");
+    printk("module show time and date deleted!");
 }
 
 module_init(show_time);
