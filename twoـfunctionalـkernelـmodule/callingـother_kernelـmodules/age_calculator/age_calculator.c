@@ -12,7 +12,7 @@ MODULE_AUTHOR("omid Mesgarha");
 MODULE_DESCRIPTION("calculating some simple functions in kernel mods ");
 MODULE_VERSION("1.00");
 
-static int ta_1, ta_2;
+static int ta_1=16, ta_2=20;
 
 module_param(ta_1, int, 0);
 module_param(ta_2, int, 0);
