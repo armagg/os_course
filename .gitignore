@@ -10,3 +10,10 @@ Module.symvers
 .show_date_time.mod.cmd
 .show_date_time.ko.cmd
 .vscode/c_cpp_properties.json
+two functional kernel module/creating child process/childprocess.o
+*.o 
+*.ko
+*.mod
+*.cmd
+*.mod.c
+
