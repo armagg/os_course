@@ -16,9 +16,9 @@ extern int age_calculator_difference(void);
 extern int age_calculator_average(void);
 
 static int __init caller_init(void) {
-    printk("init module age calculator caller.\n the diff is %d and avg is %d",
-     age_calculator_difference(),
-      age_calculator_average);
+    printk("init module age calculator caller.\n");
+    printk("diff is: %d\n", age_calculator_difference());
+    printk("avg is: %d\n", age_calculator_average()); 
     return 0;
 }
 
