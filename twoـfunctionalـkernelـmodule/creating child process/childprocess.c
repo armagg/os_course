@@ -9,20 +9,19 @@ int main(){
     while (child < 0){
         child = fork();
         if (child > 0){
-            printf("father pid: %d\n", getpid());
             wait(child);
+            printf("father pid: %d\n", getpid());
             return(0);
         }
     }
     sleep(1);
     
 
-
     while (grand_child < 0){
         grand_child = fork();
         if (grand_child > 0){
-            printf("child pid: %d\n", getpid());
             wait(grand_child);
+            printf("child pid: %d\n", getpid());
             return(0);
         }
     }
@@ -30,5 +29,4 @@ int main(){
 
     printf("grandchilds pid:%d \n", getpid());
     return(0);
-
 }
