@@ -1,7 +1,7 @@
 modules.order
 Module.symvers
 
-.vscode/c_cpp_properties.json
+.vscode/*
 two functional kernel module/creating child process/childprocess.o
 *.o 
 *.ko
