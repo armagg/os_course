@@ -8,5 +8,6 @@ two functional kernel module/creating child process/childprocess.o
 *.mod
 *.cmd
 *.mod.c
+*.out
 
 
